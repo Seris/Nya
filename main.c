@@ -4,13 +4,12 @@
 int main(int argc, char *argv[])
 {	
 	int nya;
-	int i;
 
 	printf("Nya? ");
 	scanf("%d", &nya);
-	for (i = 0; i < nya; ++i)
-	{
+	while(nya > 0){
 		printf("Nya-nya nya-nya nihao nya coda tsugeraha tsude karu saa !\n");
+		nya--;
 	}
 
 	printf("\nDONE!\n");
